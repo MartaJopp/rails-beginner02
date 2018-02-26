@@ -1,0 +1,9 @@
+<h1>Products#show</h1>
+<% if !@product.blank? %>
+<p>ID: <%= @product.id %> <br>
+NAME: <%= @product.name %> <br>
+SKU: <%= @product.sku %>
+</p>
+<% end %>
+<p><%= @message %> </p>
+
